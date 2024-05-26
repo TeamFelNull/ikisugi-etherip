@@ -1,5 +1,6 @@
 PROGRAM = etherip
 OBJS = etherip.o \
+		ikisugi_etherip.o
 
 SRCS = $(OBJS:%.o=%.c)
 CC = gcc
