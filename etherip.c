@@ -349,7 +349,7 @@ int main(int argc, char **argv){
     
     struct sockaddr_storage dst_addr;
 
-    if(use_domain_src){
+    if(use_domain_dst){
         if(ikisugi_hostname_to_address(dst, domain, &dst_addr) != 0){
             printf("IP acquisition failure! (%s)\n",dst);
             return 0;
